@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "UOHelpers"
-  s.version      = "1.0.0"
+  s.version      = "1.0.3"
   s.summary      = "Extensions for Quick and Simple behaviours used widely"
 
   s.description  = "Extensions for Quick and Simple behaviours used widely in most projects"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Jonathan Silva" => "jhi.290292@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/UroborosStudios/UOHelpers", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/UroborosStudios/UOHelpers.git", :tag => "1.0.3" }
 
 
   s.source_files  = "**/*.{h,m,swift}"
