@@ -11,7 +11,7 @@ import UIKit
 
 public extension UIColor {
     
-    public convenience init(fromHex: String) {
+    open convenience init(fromHex: String) {
         let hexString:NSString = fromHex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines) as NSString
         let scanner            = Scanner(string: fromHex)
         
@@ -34,7 +34,7 @@ public extension UIColor {
         self.init(red:red, green:green, blue:blue, alpha:1)
     }
     
-    public convenience init(fromHex: String,withAlpha: CGFloat) {
+    open convenience init(fromHex: String,withAlpha: CGFloat) {
         let hexString:NSString = fromHex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines) as NSString
         let scanner            = Scanner(string: fromHex)
         
