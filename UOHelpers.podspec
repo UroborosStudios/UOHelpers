@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Jonathan Silva" => "jhi.290292@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/UroborosStudios/UOHelpers", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/UroborosStudios/UOHelpers", :tag => "1.0.2" }
 
 
   s.source_files  = "**/*.{h,m,swift}"
